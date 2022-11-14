@@ -6,7 +6,7 @@ conda create -n gee python=3.8
 conda activate gee
 conda install geopandas
 conda install mamba -c conda-forge
-mamba install cartopy scipy geemap pygis -c conda-forge
+mamba install cartopy scipy geemap pygis localtileserver -c conda-forge
 ```
 
 
