@@ -20,7 +20,7 @@ https://blog.csdn.net/uuhhy/article/details/124638448
 
 ```
 CPU version:
-conda create -n pytorch python=3.8
+conda create -n pytorch2 python=3.8
 conda activate pytorch
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=10.2 -c pytorch
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 -c pytorch
