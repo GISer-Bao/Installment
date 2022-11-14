@@ -20,14 +20,14 @@ https://blog.csdn.net/uuhhy/article/details/124638448
 
 ```
 CPU version:
-conda create -n pytorch python=3.9
+conda create -n pytorch python=3.8
 conda activate pytorch
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=10.2 -c pytorch
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 -c pytorch
 ```
 ```
 GPU version:
-conda create -n pytorch python=3.9
+conda create -n pytorch python=3.8
 conda activate pytorch
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
