@@ -2,7 +2,7 @@
 
 ## **step 1. install geemap**
 ```
-conda create -n gee python=3.9
+conda create -n gee python=3.8
 conda activate gee
 conda install geopandas
 conda install mamba -c conda-forge
