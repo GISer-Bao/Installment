@@ -22,15 +22,15 @@ https://blog.csdn.net/uuhhy/article/details/124638448
 CPU version:
 conda create -n pytorch python=3.9
 conda activate pytorch
-pip install torch==1.10.1+cpu torchvision==0.11.2+cpu torchaudio==0.10.1 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+pip install torch==1.10.0+cpu torchvision==0.11.0+cpu torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 ```
 GPU version:
 conda create -n pytorch python=3.9
 conda activate pytorch
-conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=10.2 -c pytorch
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=10.2 -c pytorch
 or
-pip install torch==1.10.1+cu102 torchvision==0.11.2 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu102/torch_stable.html
+pip install torch==1.10.0+cu102 torchvision==0.11.0+cu102 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ## **step 3. install spyder**
